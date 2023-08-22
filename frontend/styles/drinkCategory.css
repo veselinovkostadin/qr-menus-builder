@@ -1,0 +1,74 @@
+.drinkCard {
+     /* height: 160px; */
+     border-radius: 32px;
+     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+     color: #252A2D;
+     font-family: 'Fraunces';
+     background-color: #E67226;
+}
+
+.drinkCard img{
+     height: 125px;
+}
+
+.drinkName {
+     font-family: 'Fraunces';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 30px;
+
+     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+
+.backBtn {
+     background-color: #CFCFCF;
+     height: 80px;
+     border-radius: 32px;
+     border: none;
+     height: 60px;
+
+     filter: drop-shadow(0px -12px 8px rgba(0, 0, 0, 0.25));
+}
+
+.backBtn a {
+     display: flex;
+     width: 100%;
+     height: 100%;
+     text-decoration: none;
+     color: #252A2D;
+
+     font-family: 'Fraunces';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 23px;
+
+     justify-content: center;
+     align-items: center;
+}
+
+.foodBtn {
+     background-color: #CFCFCF;
+     height: 80px;
+     border-radius: 32px;
+     border: none;
+     height: 60px;
+
+     filter: drop-shadow(0px -12px 8px rgba(0, 0, 0, 0.25));
+}
+
+.foodBtn a {
+     display: flex;
+     width: 100%;
+     height: 100%;
+     text-decoration: none;
+     text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.25);
+     color: #252A2D;
+
+     font-family: 'Fraunces';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 23px;
+
+     justify-content: center;
+     align-items: center;
+}

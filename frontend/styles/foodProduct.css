@@ -1,0 +1,81 @@
+body {
+     box-sizing: border-box;
+     height: 100vh;
+}
+
+.backBtn {
+     background-color: #E67226;
+     height: 80px;
+     border-radius: 32px;
+     border: none;
+     height: 60px;
+
+     filter: drop-shadow(0px -12px 8px rgba(0, 0, 0, 0.25));
+}
+
+.backBtn a {
+     display: flex;
+     width: 100%;
+     height: 100%;
+     text-decoration: none;
+     color: #252A2D;
+
+     font-family: 'Fraunces';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 23px;
+
+     justify-content: center;
+     align-items: center;
+}
+
+.prodName {
+     font-family: 'Fraunces';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 33px;
+     line-height: 30px;
+}
+
+.prodDescription {
+     box-shadow: 0px 4px 3px 4px rgba(0, 0, 0, 0.25);
+     background: #CFCFCF;
+     border-radius: 35px;
+     color: #252A2D;
+     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.prodDescription p {
+     font-family: 'Grandstander';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 20px;
+}
+
+.drinkBtn {
+     background-color: #E67226;
+     height: 80px;
+     border-radius: 32px;
+     border: none;
+     height: 60px;
+
+     filter: drop-shadow(0px -12px 8px rgba(0, 0, 0, 0.25));
+}
+
+.drinkBtn a {
+     display: flex;
+     width: 100%;
+     height: 100%;
+     text-decoration: none;
+     text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.25);
+     color: #CFCFCF;
+
+     font-family: 'Fraunces';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 23px;
+
+     justify-content: center;
+     align-items: center;
+}

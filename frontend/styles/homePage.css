@@ -1,0 +1,128 @@
+/* buttons */
+
+.foodDrinkButtons {
+     margin-top: 50px;
+}
+
+.menuButton {
+     border: none;
+     display: inline-block;
+     width: 157px;
+     height: 77px;
+     border-radius: 32px;
+     padding: 0px;
+}
+
+#drinkButton {
+     background-image: url('./../images/drink.jpeg');
+     background-size: cover;
+     background-position-y: center;
+     box-shadow: 0px 0px 16px -3px #CFCFCF;
+}
+
+#foodButton {
+     background-image: url('./../images/food.jpeg');
+     background-size: cover;
+     background-position-y: center;
+     box-shadow: 0px 0px 16px -3px #CFCFCF;
+}
+
+#drinkButton span,
+#foodButton span {
+     color: #CFCFCF;
+     font-weight: 400;
+     font-size: 20px;
+     padding-bottom: 5px;
+     margin-right: 5px;
+     font-family: 'Fraunces';
+}
+
+.menuButton a {
+     display: flex;
+     align-items: end;
+     justify-content: center;
+     width: 100%;
+     height: 100%;
+     background: linear-gradient(180.63deg, rgba(0, 0, 0, 0) 0.55%, #000000 119.37%);
+     border-radius: 32px;
+}
+
+/*  promotion */
+
+#promotions {
+     font-family: 'Fraunces';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 33px;
+     line-height: 30px;
+}
+
+#promotionBlock {
+     height: 460px;
+     background: #E67226;
+     box-shadow: 0px 4px 3px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 40px;
+}
+
+.roundedButton {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 25px;
+     width: 25px;
+     background: #F6A975;
+     border: none;
+     border-radius: 15px;
+}
+
+.roundedButton i {
+     display: block;
+}
+
+#productName {
+     font-family: 'Fraunces';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 25px;
+     line-height: 30px;
+
+     color: #252A2D;
+
+     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.promotionImg {
+     filter: drop-shadow(11px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.description {
+     font-family: 'Grandstander';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 15px;
+     text-shadow: 2px 2px 3px #000000;
+}
+
+/* search-bar */
+
+#search input {
+     display: inline-block;
+     width: 95%;
+     height: 60px;
+     border-radius: 40px;
+     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+     font-size: 20px;
+     padding-left: 25px;
+     background-color: #CFCFCF;
+}
+
+#searchButton {
+     background-color: #E67226;
+     align-items: center;
+     justify-content: center;
+     height: 50px;
+     width: 50px;
+     border: none;
+     border-radius: 100%;
+     margin-left: -60px;
+}

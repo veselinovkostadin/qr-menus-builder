@@ -1,0 +1,152 @@
+@font-face {
+     font-family: 'Merriweather', serif;
+     font-family: 'Sono', sans-serif;
+     src: url('https://fonts.google.com/specimen/Fraunces?query=Fraunces');
+}
+
+body {
+     overflow-x: hidden;
+     margin-top: 70px;
+     box-sizing: border-box;
+     background-color: #252A2D;
+     color: #CFCFCF;
+     font-family: 'Merriweather', serif;
+     font-weight: 400;
+}
+
+.input-control.success input {
+     border-color: #09c372;
+     border-width: medium;
+}
+
+.input-control.error input {
+     border-color: red;
+     border-width: medium;
+}
+
+.input-control.error {
+     color: red;
+     font-size: small;
+}
+
+#heroImg {
+     filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.45));
+}
+
+#navBar {
+     background-color: #252A2D;
+     box-shadow: 0px 5px 80px rgba(0, 0, 0, 0.25);
+}
+
+.navLink {
+     color: #CFCFCF;
+     transition: 0.5s;
+}
+
+.navLink:hover, .navLink:focus {
+     color: #E67226;
+     transform: translate(0, -3px);
+}
+
+.logInBtn {
+     color: #CFCFCF;
+     background-color: #E67226;
+     text-decoration: none;
+     border: 2px solid #E67226;
+     transition: 0.5s;
+}
+
+.logInBtn:hover {
+     color: #E67226;
+     background-color: transparent;
+     border: 2px solid #E67226;
+     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.40);
+     transform: translate(0, -5px);
+}
+
+.registerBtn {
+     color: #E67226;
+     background-color: #CFCFCF;
+     text-decoration: none;
+     border: 2px solid #CFCFCF;
+     transition: 0.5s;
+}
+
+.registerBtn:hover {
+     color:#CFCFCF;
+     background-color: transparent;
+     border: 2px solid #CFCFCF;
+     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.50);
+     transform: translate(0, -5px);
+}
+
+.loginRegisterForm {
+     background-color: #CFCFCF;
+     color: #252A2D;
+     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.40);
+}
+
+.inputField {
+     border-bottom: 2px solid #E67226;
+}
+
+.orangeBtn {
+     background-color: #E67226;
+     color: #252A2D;
+     border: 2px solid #E67226;
+}
+
+.orangeBtn:hover {
+     background-color: #252A2D;
+     color: #E67226;
+     border: 2px solid #E67226;
+     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.50);
+
+}
+
+.whiteBtn {
+     background-color: #CFCFCF;
+     color: #252A2D;
+     border: 2px solid #CFCFCF;
+}
+
+.whiteBtn:hover {
+     background-color: #252A2D;
+     color: #CFCFCF;
+     border: 2px solid #CFCFCF;
+     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.50);
+}
+
+#heroSection {
+     min-height: 100vh;
+}
+
+#features {
+     background-color: #CFCFCF;
+     color: #252A2D;
+     padding-bottom: 100px;
+}
+
+.featuresDiv {
+     transition: 1s;
+}
+
+.featuresDiv:hover{
+     background-color: #252A2D;
+     color: #CFCFCF;
+     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.50);
+     transform: translate(0, -5px);
+     cursor: pointer;
+}
+
+#howItWorks {
+     background-color: #E67226;
+     color: #252A2D;
+}
+
+
+.exampleImg {
+     height: 400px;
+     filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.45));
+     width: auto;
+}

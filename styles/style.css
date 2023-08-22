@@ -1,0 +1,79 @@
+body {
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: #1E1E1E;
+}
+
+#content-wraper {
+    background-color: #D9D9D9;
+    border-radius: 25px;
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.25) inset;
+    padding: 25px;
+}
+
+
+#orangeButtons {
+    background-color: #E67226;
+    color: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    transition: background-color 0.3s, box-shadow 0.4s;
+}
+
+#orangeButtons:hover {
+    background-color: rgb(240, 135, 65);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5) inset;
+}
+
+#orangeButtons>span {
+    font-size: 30px;
+    color: #D9D9D9;
+
+}
+
+#accorditionBody {
+    background-color: rgba(230, 114, 38, 0.5);
+}
+
+#accorditionHeader {
+    background-color: rgba(230, 114, 38, 0.5);
+    color: #252A2D;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+#addAcordition {
+    border: 3px dashed #252A2D;
+}
+
+#accorditionBody label {
+    font-size: 24px;
+    color: #D9D9D9;
+    font-weight: 500;
+}
+
+
+#accorditionInput {
+    padding: 4px;
+}
+
+#submitBtnAcr {
+    background-color: #E67226;
+    border: 1px solid #D9D9D9;
+}
+
+/* Categories back button */
+
+#backBtn {
+    background-color: #E67226;
+    padding: 6px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+}
+
+#backBtn:hover {
+    background-color: rgb(240, 135, 65);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5) inset;
+}
